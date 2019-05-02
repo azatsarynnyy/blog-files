@@ -173,4 +173,4 @@ Now we need to deploy a newer version of our application into the cluster. Letâ€
 
 After refreshing the page with our app we can get the updated version - with the new button.
 
-![](images/img14.gif)
+![](images/img14.png)
