@@ -1,5 +1,14 @@
 ## Try the Kubernetes Plugin Today!
 
+- [Installing chectl](#installing-chectl)
+- [Deploying Che 7 into local cluster](#deploying-che-7-into-local-cluster)
+- [Creating a Che Workspace](#creating-a-che-workspace)
+- [Setting up the access to the local cluster from Che Workspace](#setting-up-the-access-to-the-local-cluster-from-che-workspace)
+- [Preparing a namespace](#preparing-a-namespace)
+- [Deploying the app to the cluster](#deploying-the-app-to-the-cluster)
+- [Checking on the application](#checking-on-the-application)
+- [Iterating and deploying a new version](#iterating-and-deploying-a-new-version)
+
 ### Installing chectl
 [chectl](https://github.com/che-incubator/chectl#chectl) is a command line tool for Eclipse Che 7 that lets us easily deploy upstream Che on [minikube](https://github.com/kubernetes/minikube) with [Helm](https://helm.sh) and manage the Che Workspaces.
 chectl is based on [oclif](https://oclif.io/) (made by Heroku), a powerful and extensible open source framework for  building CLIs in Node.js with TypeScript. It is actively used to build the [Heroku](https://devcenter.heroku.com/articles/heroku-cli) and [Salesforce](https://developer.salesforce.com/tools/sfdxcli) CLIs.
@@ -154,7 +163,7 @@ Note, your app may not be accessible immediately since it may take some time to 
 ![](images/img11.gif)
 
 ### Iterating and deploying a new version
-Let’s make some changes and redeploy a new version of our app. Open the `views/index.ejs` file and change for example the button name to `Get Weather Forecast`. To push the new version to GitHub using the `theia-ide` container terminal, hit <kbd>Ctrl+`</kbd> hotkey twice and choose `theia-ide` container.
+Let’s make some changes and redeploy a new version of our app. Open the `views/index.ejs` file and change for example the button name to `Get Weather Forecast`. To push the new version to GitHub using the `theia-ide` container terminal, hit <kbd>Ctrl+`</kbd> hotkey twice and choose theia-ide container.
 
 ![](images/img12.gif)
 
