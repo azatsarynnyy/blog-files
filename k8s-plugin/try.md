@@ -165,7 +165,7 @@ Note, your app may not be accessible immediately since it may take some time to 
 ### Iterating and deploying a new version
 Let’s make some changes and redeploy a new version of our app. Open the `views/index.ejs` file and change for example the button name to `Get Weather Forecast`. To push the new version to GitHub using the `theia-ide` container terminal, hit <kbd>Ctrl+`</kbd> hotkey twice and choose theia-ide container.
 
-![](images/img12.gif)
+![](images/img12.png)
 
 Now we need to deploy a newer version of our application into the cluster. Let’s switch back to the `deployment.yaml` file in the editor and call the `Kubernetes: Scale` command. Pass zero number to shut down the pod with the previous app version. And repeat the command with 1 replica passed to start the pod again but with new app version.
 
