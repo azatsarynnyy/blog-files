@@ -81,17 +81,17 @@ Then go to the URL:
 E.g., in my case it’s the following:
 http://che-che.192.168.99.196.nip.io/f?url=https://github.com/azatsarynnyy/simple-nodejs-weather-app
 
-Che will create a Development Workspace based on the definition in devfile.yaml
+Che will create a Development Workspace based on the definition in [devfile.yaml](https://github.com/azatsarynnyy/simple-nodejs-weather-app/blob/master/devfile.yaml)
 ```yaml
 specVersion: 0.0.1
 name: k8s-plugin
 components:
  - type: cheEditor
-   id: 'org.eclipse.che.editor.theia:next'
+   id: 'eclipse/che-theia/next'
  - type: chePlugin
-   id: 'ms-kubernetes-tools.vscode-kubernetes-tools:0.1.17'
+   id: 'ms-kubernetes-tools/vscode-kubernetes-tools/0.1.17'
  - type: chePlugin
-   id: 'redhat.vscode-yaml:0.3.0'
+   id: 'redhat/vscode-yaml/0.4.0'
 ```
 
 ![](images/img1.png)
