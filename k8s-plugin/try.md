@@ -142,7 +142,7 @@ We’ve just created a deployment that is running a pod with a container that se
 ![](images/img8.png)
 
 ### Checking on the application
-To check the running app you need to get it’s URL. You can open a shell on your host and use the command minikube service:
+To check the running app you need to get it’s URL. You can open a shell on your host and use the command `minikube service`:
 
 ```shell
 $ minikube service -n k8s-demo node-web-app
